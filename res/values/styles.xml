@@ -106,5 +106,14 @@
         <item name="android:colorPrimaryDark">@color/primary_dark</item>
         <item name="android:colorAccent">@color/accent</item>
         <item name="android:colorBackground">@color/colorBackgroundDark</item>
+        <item name="android:alertDialogTheme">@style/Theme.AlertDialog</item>
+    </style>
+
+    <!-- Dialog Theme Settings -->
+    <style name="Theme.AlertDialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:colorBackground">@color/colorBackgroundDark</item>
     </style>
 </resources>
